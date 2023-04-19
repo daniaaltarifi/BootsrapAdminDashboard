@@ -1,0 +1,50 @@
+
+.box{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+.button{
+    background-color: var(--main-color);
+    color: white;
+    border: 2px ;
+    border-radius:80px;
+    margin-left: 5%;
+    -webkit-border-radius:80px;
+    -moz-border-radius:80px;
+    -ms-border-radius:80px;
+    -o-border-radius:80px;
+}
+.flight{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.flight-box{
+   max-width: 1000px;
+   display: flex;
+   justify-content: space-evenly;
+}
+.logo{
+    margin-left: 35%;
+}
+.card-booking{
+    font-weight: 400;
+    line-height: 1.6;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: var(--bs-card-height);
+    word-wrap: break-word;
+    background-color: var(--bs-card-bg);
+    background-clip: border-box;
+    border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+    border-radius: var(--bs-card-border-radius);
+    box-shadow: 0 0 2rem 0 rgba(136,152,170,.15);
+    
+}

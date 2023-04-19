@@ -1,0 +1,33 @@
+
+.flight{
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: dashed;
+}
+.flight-chart{
+font-family: Roboto,Helvetica,Arial,sans-serif;
+font-weight: 300;
+line-height: 1.5em;
+letter-spacing: unset;
+box-sizing: inherit;
+
+z-index: 1;
+transition: .3s cubic-bezier(.4,0,.2,1);
+transition-property: color,background-color;
+will-change: color,background-color;
+display: flex;
+
+flex-direction: column;
+position: relative;
+width: 100%;
+margin: 30px 0;
+overflow: unset;
+font-size: .875rem;
+box-shadow: 0 1px 4px 0 rgba(0,0,0,.14);
+border-radius: 6px;
+background: #fff;
+color: var(--md-theme-default-text-primary-on-background,rgba(0,0,0,.87));
+background-color: var(--md-theme-default-background,#fff);}
+.chart-card-text{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}

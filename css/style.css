@@ -6,19 +6,15 @@ width: 100%;}
     margin-left: auto;
   }
 }
-header{
-    background-color: aqua;
-}
 .Sidebar {
-  /* width: 370px; */
+  width: 270px;
   height: 850px;
 }
-/* @media only screen and (max-width:600px) {
-.big-sidebar{
-    display:none;
+
+.search{
+  align-items: center;
+  
 }
-    
-} */
 .nav .nav-link {
   display: flex;
   justify-content: space-around;
